@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "artifacts": [
+    {
+      "id": "birthday.invitation",
+      "family": "create",
+      "semanticType": "invitation_draft",
+      "userLabel": "Invitation draft",
+      "userConfirmedOrder": 0,
+      "view": "draft",
+      "fields": [
+        {
+          "id": "audience",
+          "role": "draft_audience",
+          "label": "Audience",
+          "valueType": "text",
+          "required": true,
+          "candidateValue": "Family"
+        },
+        {
+          "id": "body",
+          "role": "draft_body",
+          "label": "Message",
+          "valueType": "rich_text",
+          "required": true,
+          "candidateValue": "Please join us to celebrate."
+        }
+      ]
+    }
+  ]
+}

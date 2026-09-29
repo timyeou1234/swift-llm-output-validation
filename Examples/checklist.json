@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "artifacts": [
+    {
+      "id": "birthday.checklist",
+      "family": "act",
+      "semanticType": "action_checklist",
+      "userLabel": "Birthday checklist",
+      "userConfirmedOrder": 0,
+      "view": "list",
+      "fields": [
+        {
+          "id": "items",
+          "role": "action_items",
+          "label": "Things to prepare",
+          "valueType": "ordered_items",
+          "required": true,
+          "candidateValue": [
+            "Choose a cake",
+            "Confirm the guest count"
+          ]
+        },
+        {
+          "id": "outcome",
+          "role": "action_outcome",
+          "label": "What was done",
+          "valueType": "text",
+          "required": true,
+          "candidateValue": null
+        }
+      ]
+    }
+  ]
+}
